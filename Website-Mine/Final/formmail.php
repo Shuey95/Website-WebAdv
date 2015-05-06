@@ -14,9 +14,7 @@
 
  // you can specify which email you want your contact form to be emailed to here
 
-  $toemail = "ryandesignerforhire@gmail.com";
-  $subject = "from ryandesigner.com";
-
+  
   $headers = "MIME-Version: 1.0\n"
             ."From: \"".$name."\" <".$email.">\n"
             ."Content-type: text/html; charset=iso-8859-1\n";
